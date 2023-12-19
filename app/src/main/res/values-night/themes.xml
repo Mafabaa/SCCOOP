@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SMACC" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_color</item>
+        <item name="colorPrimaryVariant">@color/red_color</item>
+        <item name="colorOnPrimary">@color/red_color</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/cream_color</item>
+        <item name="colorSecondaryVariant">@color/cream_color</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

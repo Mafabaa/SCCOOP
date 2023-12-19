@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_control_monitor"
+    tools:context=".ControllingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/button_back"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTROLLING"
+            android:textSize="35sp"
+            android:fontFamily="@font/quicksandbold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_recyclerview">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lampu"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/quicksandbold"
+                    android:layout_gravity="center"/>
+
+
+                <ImageView
+                    android:id="@+id/imageViewLamp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/lamp_controlling_off"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/SwitchButtonLamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:textOn="On"
+                    android:textOff="Off"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:thumb="@drawable/switch_thumb"
+                    app:showText="true"
+                    app:track="@drawable/switch_track"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keamanan"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/quicksandbold"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/imageViewPir"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/off_lock_pir"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/SwitchButtonPir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:textOn="On"
+                    android:textOff="Off"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:thumb="@drawable/switch_thumb"
+                    app:showText="true"
+                    app:track="@drawable/switch_track"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

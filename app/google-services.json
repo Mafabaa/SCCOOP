@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476687797035",
+    "firebase_url": "https://smacc-001-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smacc-001",
+    "storage_bucket": "smacc-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476687797035:android:60d8b82b80c2c3d429136e",
+        "android_client_info": {
+          "package_name": "com.example.smacc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476687797035-td4evn6jjvseh21mes2a9blhgbijpj8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuAFpfHXaP-33_r_Y0EUh6IRwcXPXdE4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476687797035-td4evn6jjvseh21mes2a9blhgbijpj8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

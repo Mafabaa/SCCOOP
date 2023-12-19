@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Text Dashboard -->
+    <string name="text_dashboard">\" Selamat Datang Di
+        \n Halaman Dashboard Smart Chicken Coop App \"</string>
+
+    <string name="txt_about">
+        Selamat datang di Smart Chicken Coop (SCCOOP), aplikasi canggih berbasis internet yang digunakan untuk monitoring dan controlling kandang ayam menggunakan teknologi IoT.
+        \Dengan SCCOOP, Anda dapat memantau suhu, kelembaban, kadar gas amonia, ketersediaan makan, ketersediaan minum dan lingkungan kandang secara real-time melalui koneksi internet.
+        \Untuk memberikan hasil terbaik dalam bisnis peternakan, pastikan aplikasi ini terkoneksi ke internet. Smart Chicken Coop - Solusi modern untuk keberhasilan peternakan ayam Anda.
+    </string>
+
+    <string name="txt_sinkronisasi_data_umur">Tombol "Sinkronisasi Data Umur" berfungsi memantau perkembangan umur ayam, menyesuaikan suhu dan kelembapan sesuai fase. Tombol ini hanya dapat diklik sekali untuk mencegah pengaturan yang tidak diinginkan, dan akan dinonaktifkan setelah klik, tetapi akan diaktifkan kembali setelah masa panen 30 hari untuk memastikan pengelolaan yang akurat dan optimal.
+    </string>
+
+    <string name="app_name">SCCOOP</string>
+    <string name="suhu_format">%.1f</string>
+    <string name="kelembapan_format">%.0f</string>
+    <string name="amonia_format">%.2f</string>
+    <string name="distance_format">%d</string>
+    <string name="waterlevel_format">%d</string>
+
+    <string name="text_suhu">Suhu Celsius</string>
+    <string name="text_kelembapan">Kelembapan</string>
+    <string name="text_amonia">Gas Amonia</string>
+    <string name="text_distance">Makan Ayam</string>
+    <string name="text_waterlevel">Minum Ayam</string>
+
+    <string name="txt_status_suhu">°C</string>
+    <string name="txt_status_kelembapan">% Relative Humidity</string>
+    <string name="txt_status_amonia">PPM</string>
+    <string name="txt_status_distance">/5</string>
+    <string name="txt_status_waterlevel">/4</string>
+
+    <!-- Status Dalam Monitoring -->
+    <string name="txt_ket_suhu">\ 0–7d \ \ \ = 32–35 \n
+        8–14d \ \ = 30–32 \n
+        15-21d \ = 28–30 \n
+        22-28d = 25–28 \n
+        28d> \ \ \ = 22-25 </string>
+    <string name="txt_ket_kelembapan">Humidity</string>
+    <string name="txt_ket_ammonia">PPM</string>
+    <string name="txt_ket_makan">4/4 Makanan Penuh</string>
+    <string name="txt_ket_minum">3200 Liter Minuman Penuh</string>
+
+</resources>
